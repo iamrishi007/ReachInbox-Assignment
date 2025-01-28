@@ -1,8 +1,24 @@
-# React + Vite
+# React Login Page with Google OAuth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a simple login page built using React. It incorporates Google OAuth for authentication and uses the `@chakra-ui/react` library for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Google Login**: Integrates Google OAuth for user authentication.
+- **Chakra UI Components**: Utilizes Chakra UI for a responsive and clean design.
+- **Simple Layout**: Includes options for creating a new account and signing in.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Chakra UI**: A component library for styling React applications.
+- **@react-oauth/google**: A library for Google OAuth integration.
+
+## Installation
+
+Follow these steps to set up and run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
